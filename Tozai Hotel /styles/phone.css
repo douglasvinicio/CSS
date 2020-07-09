@@ -1,0 +1,26 @@
+@charset "uft-8";
+
+
+
+#wrapper {
+    width: 100%;
+    background-image: url(../images/basin_bg_phone.jpg);
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+
+#header h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-left: 90px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#menu {
+    width: 309px;
+    height: 95px;
+}

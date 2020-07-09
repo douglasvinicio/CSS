@@ -1,0 +1,14 @@
+In-Class Activities - Class 2
+
+Give an example for the following CSS selectors
+
+1. Direct child selector
+2. Adjacent sibling combinator or next sibling
+3. Direct Adjacent Sibling
+4. Indirect Adjacent Sibling
+5. :nth-child()
+6. :nth-last-child
+7. :first-of-type()
+8. :last-of-type()
+9. :only-of-type()
+10. :nth-of-type

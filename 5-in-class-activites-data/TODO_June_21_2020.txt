@@ -1,0 +1,11 @@
+Design the grid layout for the attached figure:
+63-Possible Grid Layouts.png
+or
+64-Possible Grid Layouts.png
+
+Flexbox and Grid Layout - Useful Links
+• https://www.sitepoint.com/flexbox-css-flexible-box-layout/
+• https://www.sitepoint.com/introduction-css-grid-layout-module/
+• https://igalia.github.io/css-grid-layout/index.html
+• https://www.quackit.com/css/grid/examples/css_grid_card_examples.cfm
+• https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout

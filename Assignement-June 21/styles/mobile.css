@@ -1,0 +1,88 @@
+/*
+    Author : Douglas Vinicio
+    Date :  18 June, 2020
+    Filename : mobile.css
+*/
+
+/*
+================
+General Section
+================
+*/
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/* Removing the margin from H1 and applying 10px on bottom */
+h1 {
+    margin: 0 0 10px 0;
+}
+
+/*
+========================= 
+Navbar Section / Dropdown Menu
+=========================
+*/
+
+/* Button hidden in Desktop CSS file. Only used for mobile.css and tablet.css*/
+.dropdown-button {
+
+    width: 100%;
+    background-color: rgb(188, 243, 189);
+    font-size: 20px;
+
+    /* Outline Style and Color of the Items */
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+    margin: 0 0 10px 0;
+}
+/* Navigation bar hidden bofore pressing the button */
+.nav-bar {
+    display: none;
+    padding: 0;
+    margin: 0 auto;    
+    background-color: #fff; 
+}
+
+/*
+========================= 
+Hover Section of the Dropdown Menu
+=========================
+*/
+
+/* Background little bit more dark blue when hover */
+.nav-bar li:hover {
+    background-color: rgb(126, 197, 221);
+}
+/* Displaying as block the menu when activated */
+.navbar:hover .nav-bar {
+    display: block;
+}
+/* Dark green showing that the button was pressed */
+.navbar:hover .dropdown-button {
+    background-color: #81a582;
+}
+
+/* Aligning text */
+.nav-bar-items {
+    display: flex;
+    justify-content: center;
+    margin: 3px 0 8px 0;
+}
+/* ============================
+Main Section / Grids / Articles 
+============================  */
+
+/* Main Content using Grids */
+#main-content {
+    /* Defining the grid */
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(50px, auto);
+
+}
+
+
+

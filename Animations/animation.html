@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animation 1</title>
+    <style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        animation: over-and-back 13s linear 5;
+        animation-delay: 2s;
+    }
+    @keyframes over-and-back {
+        0% {background-color: green;}
+        25% {background-color: yellow;}
+        50% {background-color: rgb(46, 46, 5);}
+        100% {background-color: rgb(143, 28, 47);}
+    }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

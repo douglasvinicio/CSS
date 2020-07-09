@@ -1,0 +1,58 @@
+/* 
+In Class Activities - Day 2 
+Script by Douglas Vinicio 
+Date : June 15, 2020
+*/
+
+/* 1 - Direct Child Selector */
+body > p {
+    color: white;
+}
+
+/* 2. Adjacent sibling combinator or next sibling */
+h1 + p {
+    background-color: darkblue;
+}
+
+/* 3. Direct Adjacent Sibling */
+h2 + p {
+    background-color: bisque;
+}
+
+/* 4. Indirect Adjacent Sibling */
+h1 ~ p {
+    font-size: 20px;
+}
+
+/* 5. :nth-child()  */
+form :nth-child(3n) {
+    color: blueviolet;
+}
+
+/* 6. :nth-last-child  */
+form :nth-last-child(1) {
+    color: chocolate;
+    font-weight: bold;
+}
+
+/* 7. :first-of-type() */
+div:first-of-type {
+    background-color: pink;
+}
+
+/* 8. :last-of-type() */
+form:last-of-type {
+    background-color: burlywood;
+}
+
+/* 9. :only-of-type() */
+body:only-of-type {
+    background-color: aqua;
+}
+
+/* 10. :nth-of-type  */
+label:nth-of-type(1) {
+    background-color: red;
+    color: white;
+}
+

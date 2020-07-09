@@ -1,0 +1,81 @@
+/*
+    Author : Douglas Vinicio
+    Date :  18 June, 2020
+    Filename : desktop.css
+
+*/
+
+/*
+========================= 
+Header and Navbar Section
+=========================
+*/
+.dropdown-button {
+    display: none;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+}
+/* Navbar Using Flex Display */
+.nav-bar {
+    /* Centering the Navbar and applying space bettwen the Linkss */
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 0 10px 0;
+
+}
+
+/* Navbar Links */
+.nav-bar-items { 
+    margin: 0;
+
+}
+
+/* ============================
+Main Section / Grids / Articles 
+============================  */
+
+/* Main Content using Grids */
+#main-content {
+    /* Defining the grid */
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+/* 1 - First box of the grid */
+.intro-article {
+    /* Positioning the grid */
+    grid-row: 1/3;
+}
+/* 2 - Second box of the grid */
+.main-article {
+    /* Positioning the grid */
+    grid-row: 1/3;
+}
+
+/* 3 - Third box  of the grid */
+.side-1 {
+    /* Text and List Settings */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 4 - Fourth box of the grid */
+.side-2 {
+    /* Text and List Settings */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*
+========================= 
+Footer Section using grids
+=========================
+*/
+.footer {
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+

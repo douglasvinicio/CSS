@@ -1,0 +1,60 @@
+/* 
+Author : Douglas Vinicio
+Date : 22 June, 2020
+Filename : custom.css
+*/
+
+/* General Section */ 
+
+body {
+background-color: #e6e6e6;
+}
+
+h1,h2,h3,p {
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0 0 0;
+}
+
+/* Header Section */ 
+header {
+    margin-bottom: 20px;
+}
+
+/* Centalizing and adjusting width of the top image */
+.banner{
+    /* Aligning to center */
+    display: flex;
+    margin: 0 auto;
+    /* Sizing in the images */
+    width:80%;
+    box-shadow: 10px 10px 10px 5px rgb(212, 204, 204);
+    border-radius: 10px;
+}
+
+/* Shadow in the images */
+.card-image {
+    /* Aligning to center */
+    display: block;
+    margin: 0 auto;
+    /* Sizing in the images */
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(216, 211, 211);
+}
+
+
+/* Positining to center */
+footer, button {
+    display: flex !important;
+    margin: 0 auto !important;
+    justify-content: center !important;
+}
+/* Shadow in the columns */
+.mdl-cell {
+    box-shadow: 10px 10px 5px rgb(216, 211, 211);
+}
+
+  

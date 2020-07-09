@@ -1,0 +1,174 @@
+/*
+    Author : Douglas Vinicio
+    Date :  18 June, 2020
+    Filename : core.css
+
+*/
+
+/* ==============
+General Section
+================= */
+
+#wrapper {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 2em;
+    margin: 0.67em 0 10px 0;
+}
+/* Titles */
+h2,h3,h4{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 0 5px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* Paragraphs and List Items */
+p,li {
+    font-size: 13px;
+}
+/* Adjusting margin of the paragraphs*/
+p {
+    margin: 7px;
+}
+/* Removing Line from Links and setting color to #003 */
+a {
+    text-decoration: none;
+    color: #003;
+}
+
+/*
+========================= 
+Header and Navbar Section
+=========================
+*/
+
+/* Header of the Page */
+header {
+    /* Outline Style and Color of the Items */
+    background-color: pink;
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+}
+
+/* Navbar Using Flex Display */
+.nav-bar {
+    /* Centering the Navbar and applying space bettwen the Linkss */
+    display: flex; 
+    
+}
+
+/* Navbar Links */
+.nav-bar-items { 
+    padding: 5px 40px 5px 40px;
+    list-style-type: none;
+    /* Outline Style and Color of the Items */
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+    background-color: lightblue;
+
+}
+
+/* 
+===============================
+Main Section / Grids / Articles 
+===============================
+*/
+
+/* Main Content using Grids */
+#main-content {
+    /* Defining the grid */
+    display: grid;
+    gap: 1em;
+}
+
+/* 1 - First box of the grid */
+.intro-article {
+    /* Outline Style and Color of the Items */
+    background-color: bisque;
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+
+}
+/* 2 - Second box of the grid */
+.main-article {
+    /* Outline Style and Color of the Items */
+    background-color: beige;
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+
+}
+
+/* 3 - Third box  of the grid */
+.side-1 {
+    /* Outline Style and Color of the Items */
+    background-color: rgb(230, 230, 134);
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+    /* Text and List Settings */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* 4 - Fourth box of the grid */
+.side-2 {
+    /* Outline Style and Color of the Items */
+    background-color: rgb(173, 219, 166);
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+    /* Text and List Settings */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    display: grid;
+    gap: 1em;
+    padding-top: 10px;
+}
+
+/*
+========================= 
+Footer Section using grids
+=========================
+*/
+
+.footer-box {
+    /* Outline Style and Color of the Items */
+    background-color: rgb(173, 219, 166);
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: gray;
+    background: #A4F2D8;    
+}
+
+
+
+
+
+
+
+
+

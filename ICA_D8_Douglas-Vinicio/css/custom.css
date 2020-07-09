@@ -1,0 +1,81 @@
+/* 
+Author : Douglas Vinicio
+Date : 22 June, 2020
+Filename : custom.css
+*/
+
+/* General Section */ 
+
+* {
+background-color: #e6e6e6;
+}
+
+h1,h2,h3,p {
+    text-align: center;
+}
+
+h1,h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #222222;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 20px 0 0 0;
+}
+
+/* Use the following CSS rules to specify these families */
+body {
+font-family: 'Roboto Slab', serif;
+}
+
+/* Header Section */ 
+header {
+    margin-bottom: 20px;
+}
+/* Set the top image */
+.banner{
+display: flex;
+margin: 0 auto;
+width: 35%;
+}
+
+/* Navbar container */
+.navbar {
+text-align: center;
+display: flex;             
+justify-content: center;
+margin-bottom: 10px;
+}
+
+/* Link text inside the navbar */
+.navbar a {
+color: black;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* Setting media query to small sized screens */
+.card-image {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        border: 3px gray solid;
+        box-shadow: 10px 10px 5px grey;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 20px;
+}
+
+/* Box Div for separate and create the borders */
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+  

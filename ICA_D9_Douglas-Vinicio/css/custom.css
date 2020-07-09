@@ -1,0 +1,67 @@
+/* 
+Author : Douglas Vinicio
+Date : 22 June, 2020
+Filename : custom.css
+*/
+
+/* General Section */ 
+
+* {
+background-color: #e6e6e6;
+}
+
+h1,h2,h3,p {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 20px 0 0 0;
+    padding-bottom: 20px;
+}
+
+/* Header Section */ 
+header {
+    margin-bottom: 20px;
+}
+
+/* Centalizing and adjusting width of the top image */
+.banner{
+display: flex;
+margin: 0 auto;
+width: 35%;
+}
+
+/* Shadow in the images */
+.card-image {
+width: 30% !important;
+border: 3px gray solid;
+box-shadow: 10px 10px 5px grey;
+}
+
+
+/* Navbar container */
+.navbar {
+text-align: center;
+display: flex;             
+justify-content: center;
+margin-bottom: 10px;
+}
+
+/* Link text inside the navbar */
+.navbar a {
+color: black;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* Defining color of the div created by the framework for the same color of the background
+also creating a shadown to separate the boxes */
+.uk-card {
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  

@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font: arial, sans-serif 90%;
+}
+
+#wrapper {
+    width: 80% ;
+    margin: 0 auto;
+    background:url(../bg-league.jpg) repeat;
+    height: 600px;
+    background-color: #9999;
+    border: 1px solid #444;
+}
+
+header {
+    display: block;
+    width: 100%;
+    float: left;
+    background: #122;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 20px 12px 29px #4cff00;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    float: left;
+}
+
+ol {
+    background: #333;
+    margin: 0 auto;
+    width: 250px;
+    color: white;
+
+}
+
+ol li {
+    background: #666;
+    border-bottom: 1px dashed  #999;
+    padding: 10px;
+}
+
+ol li:nth-child(-n + 2) {
+    background: green;
+}
+
+ol li:nth-child(-n+6):nth-child(n+3) {
+    background: blue;
+}
+
+ol li:nth-last-child(-n+2){
+    background: red;
+}
+
+ol li a:visited {
+    color: black;
+}
+
+ol li a:hover{
+    color: white;
+}
+
+ol li a:active {
+    background-color: aqua;
+}

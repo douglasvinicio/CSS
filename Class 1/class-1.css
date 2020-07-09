@@ -1,0 +1,23 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+p {
+    color: red;
+    background-color: lightgray;
+}
+
+h1:first-letter{
+    color: aquamarine;
+    font-size: 5em;
+}
+
+/* Invert the colors of every odd paragrah */
+p:nth-of-type(odd) {
+    color: lightgray;
+    background-color: blue;
+}
+

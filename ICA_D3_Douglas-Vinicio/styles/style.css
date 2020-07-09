@@ -1,0 +1,121 @@
+/* Main section of the page */
+body {
+    margin: 0;
+    font: arial, sans-serif 90%;
+    width: 60%;
+    height: 70%;
+    margin : 0 auto ;
+    border: 1px solid black;
+}
+
+/* Aligning text in center and color to white */
+h1, li, header, nav, a {
+    text-align: center;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* H1 on the header and background Image */
+header {
+    background: url(../images/blacktexture.jpg);
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+/* Navbar Style */ 
+nav {
+    background-color: gray;
+    padding: 1mm;
+    
+}
+
+li {
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    text-decoration-line: underline;
+    padding: 7px;
+
+}
+/* Tags of text and titles  */ 
+p {
+    font-size: 23px;
+    margin: 0;
+    text-indent: 1em;
+}
+
+h2 {
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+
+h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+img {
+    float: left;
+}
+
+/* Style of the divs */ 
+
+#wrapper{
+    background-color: #e6e9d9;
+    border: 1px solid black;
+    margin : 0 auto ;
+    width: 97%;  
+    height: 90%;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em; 
+
+}
+
+#container > div:last-child {
+    grid-template-columns: 100%;
+}
+
+.box-1{
+    margin: 10px;
+    border-right:3px solid green;
+    margin-right: 0;
+    padding-right: 2%;
+}
+
+.box-2 {
+    margin: 10px;
+    border-right:3px solid green;
+    margin-right: 0;
+    padding-right: 3%;
+}
+
+.box-3 {
+    margin: 10px;
+}
+
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    grid-column:1 / 4;
+}
+
